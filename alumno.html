@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+  <title>HTML/CSS Alumno</title>
+  <meta charset="utf-8">
+  <link href="estilo_alumno.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <!-- fonts ROBOTO -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+  <!-- script -->
+  <script src="main-alumno.js"></script>
+</head>
+
+<body>
+  <!-- TODO: NAV -->
+  <nav>
+    <ul>
+      <li><a href="index.html">INICIO</a></li>
+      <li class="init"><a href="alumno.html"><i class="fas fa-home"></i>ALUMNO</a></li>
+      <li><a href="https://www.eniun.com/" target="_blank">ESTILOS</a></li>
+      <li><a href="https://colorhunt.co/" target="_blank">COLORS</a></li>
+    </ul>
+  </nav>
+  <hr style="border-color: #aaaaaa">
+  <!-- TODO: SECTION con el ID ' # main ' -->
+  <section id="main">
+    <!-- FIXME: sub cajon de SECTION #main  '.CONTENT' -->
+    <article class="content">
+      <div class="box-general">
+        <iframe class="movie" id="movie1" src="https://www.youtube.com/embed/Y1rAupY8kV8?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video src="video/MOOC.mov" class="movie" id="movie2" controls>esta es la primera</video>
+        <video src="video/MOOC.mp4" class="movie" id="movie3" controls></video>
+        <video src="video/MOOC.ogv" class="movie" id="movie4" controls></video>
+        <video src="video/MOOC.webm" class="movie" id="movie5" controls></video>
+      </div>
+      <h3 class="subtitle" id="s-title1">YOUTUBE  REWIND 2019 [ Alecmolon ]</h3>
+      <h3 class="subtitle" id="s-title2" style="display: none; margin-bottom: 1rem">VIDEO en formato [ .mov ]</h3>
+      <h3 class="subtitle" id="s-title3" style="display: none; margin-bottom: 1rem">VIDEO en formato [ .mp4 ]</h3>
+      <h3 class="subtitle" id="s-title4" style="display: none; margin-bottom: 1rem">VIDEO en formato [ .ogv ]</h3>
+      <h3 class="subtitle" id="s-title5" style="display: none; margin-bottom: 1rem">VIDEO en formato [ .webm ]</h3>
+      <div class="sub" id="s-options">
+        <ul>
+          <li>19,446,042 views</li>
+          <li id="boton">SUBSCRIBE</li>
+        </ul>
+      </div>
+    </article>
+    <!-- FIXME: sub cajon de SECTION #main  '.other' -->
+    <aside class="other">
+      <!-- Este es el Primer box -->
+      <div class="box" id="hover1">
+        <div class="box-img" id="option1">
+          <a href="#"><img src="img/img001.jpg" alt="#"></a>
+        </div>
+        <div class="description">
+          <div class="left">
+            <h4>YOUTUBE  REWIND 2019 [ Alecmolon ]</h4>
+            <p>Alecmolon</p>
+            <p>19M view • 10 month ago</p>
+          </div>
+          <div class="right">
+            <i class="fas fa-angle-down" id="open1"></i>
+            <i class="fas fa-angle-up" id="close1"></i>
+            <div class="pucho" id="pucho1">
+              <p>Me gusta</p>
+              <p>Me enoja</p>
+              <p>Ver despues</p>
+              <hr style="border-color: #aaa">
+              <p>Not interested</p>
+              <p>Report</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Este es el Segundo box -->
+      <div class="box" id="hover2">
+        <div class="box-img" id="option2">
+          <a href="#"><img src="img/img002.jpg" alt="#"></a>
+        </div>
+        <div class="description">
+          <div class="left">
+            <h4>VIDEO en formato [ .mov ]</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="right">
+            <i class="fas fa-angle-down" id="open2"></i>
+            <i class="fas fa-angle-up" id="close2"></i>
+            <div class="pucho" id="pucho2">
+              <p>Me gusta</p>
+              <p>Me enoja</p>
+              <p>Ver despues</p>
+              <hr style="border-color: #aaa">
+              <p>Not interested</p>
+              <p>Report</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Este es el Tercer box -->
+      <div class="box" id="hover3">
+        <div class="box-img" id="option3">
+          <a href="#"><img src="img/img002.jpg" alt="#"></a>
+        </div>
+        <div class="description">
+          <div class="left">
+            <h4>VIDEO en formato [ .mp4 ]</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="right">
+            <i class="fas fa-angle-down" id="open3"></i>
+            <i class="fas fa-angle-up" id="close3"></i>
+            <div class="pucho" id="pucho3">
+              <p>Me gusta</p>
+              <p>Me enoja</p>
+              <p>Ver despues</p>
+              <hr style="border-color: #aaa">
+              <p>Not interested</p>
+              <p>Report</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Este es el Cuarto box -->
+      <div class="box" id="hover4">
+        <div class="box-img" id="option4">
+          <a href="#"><img src="img/img002.jpg" alt="#"></a>
+        </div>
+        <div class="description">
+          <div class="left">
+            <h4>VIDEO en formato [ .ogv ]</h4>
+            <p>Sit quibusdam natus tenetur sequi quos iusto atque.</p>
+          </div>
+          <div class="right">
+            <i class="fas fa-angle-down" id="open4"></i>
+            <i class="fas fa-angle-up" id="close4"></i>
+            <div class="pucho" id="pucho4">
+              <p>Me gusta</p>
+              <p>Me enoja</p>
+              <p>Ver despues</p>
+              <hr style="border-color: #aaa">
+              <p>Not interested</p>
+              <p>Report</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Este es el Quinto box -->
+      <div class="box" id="hover5">
+        <div class="box-img" id="option5">
+          <a href="#"><img src="img/img002.jpg" alt="#"></a>
+        </div>
+        <div class="description">
+          <div class="left">
+            <h4>VIDEO en formato [ .webm ]</h4>
+            <p>Sit dicta odio iure nesciunt, dignissimos est eius quis sequi velit molestiae et.</p>
+          </div>
+          <div class="right">
+            <i class="fas fa-angle-down" id="open5"></i>
+            <i class="fas fa-angle-up" id="close5"></i>
+            <div class="pucho" id="pucho5">
+              <p>Me gusta</p>
+              <p>Me enoja</p>
+              <p>Ver despues</p>
+              <hr style="border-color: #aaa">
+              <p>Not interested</p>
+              <p>Report</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+  <!-- TODO: FOOTER -->
+  <footer>&copy; Nombre del Alumno: <i class="name"><strong>" &lt Grabriel Rivera &gt"</Grabriel></strong></i></footer>
+</body>
+</html>
